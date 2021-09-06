@@ -95,3 +95,6 @@ class NewPostView(View):
 
 
 
+
+def func():
+    pass

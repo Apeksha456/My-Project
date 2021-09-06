@@ -25,7 +25,7 @@ urlpatterns = [
     url(r'^$',views.home,name = 'home'),  # ^---starts with nothing  and $ --ends with nothing
     url(r'^boards/(?P<pk>\d+)/$',views.board_topics,name='board_topics'),
     url(r'^boards/(?P<pk>\d+)/new/$',views.new_topic,name='new_topic'),
-    # path("",views.home,name= "home")
+    
 
 
     # accounts--

@@ -52,3 +52,12 @@ class Post(models.Model):
     def __str__(self):
         truncated_message = Truncator(self.message)
         return truncated_message.chars(30)
+
+
+
+
+
+
+
+class Test:
+    name = models.CharField(max_length=100)
