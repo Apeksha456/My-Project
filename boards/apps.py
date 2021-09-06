@@ -1,5 +1,5 @@
 from django.apps import AppConfig
-
+# add a new line
 
 class BoardsConfig(AppConfig):
     "this is boards configuration"
