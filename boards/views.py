@@ -98,3 +98,15 @@ class NewPostView(View):
 
 def func():
     pass
+
+def test1():
+    pass
+
+
+def test():
+    "for testing purpose"
+    for i in range(100):
+        print(i)
+
+def test2():
+    print("In test2")
