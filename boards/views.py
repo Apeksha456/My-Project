@@ -99,6 +99,7 @@ class NewPostView(View):
 def func():
     pass
 
+<<<<<<< HEAD
 def test1():
     pass
 
@@ -110,3 +111,11 @@ def test():
 
 def test2():
     print("In test2")
+=======
+
+def test():
+    for i in range(11):
+        print(i)
+
+        
+>>>>>>> 938e4dbee991f25cc85eca45f0baa167d3d9a414
