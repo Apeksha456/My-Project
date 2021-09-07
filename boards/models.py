@@ -4,7 +4,11 @@ from django.utils.text import Truncator
 
 # Create your models here.
 
+<<<<<<< HEAD
 # adding a new line in master branch
+=======
+# add a comment in f1 branch
+>>>>>>> f1
 
 class Board(models.Model):
     name = models.CharField(max_length=30, unique=True)
@@ -81,3 +85,13 @@ class MasterModel(models.Model):
         # with their title name
     def __str__(self):
         return self.description
+
+from django.db import models
+from django.db.models import Model
+# Create your models here.
+  
+class F1Model(Model):
+    geeks_field = models.IntegerField()
+  
+    def __str__(self):
+        return self.geeks_field
