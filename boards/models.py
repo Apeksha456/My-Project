@@ -4,6 +4,8 @@ from django.utils.text import Truncator
 
 # Create your models here.
 
+# adding a new line in master branch
+
 class Board(models.Model):
     name = models.CharField(max_length=30, unique=True)
     description = models.CharField(max_length=100)
