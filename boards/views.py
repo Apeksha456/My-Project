@@ -114,8 +114,12 @@ def test2():
 =======
 
 def test():
-    for i in range(11):
-        print(i)
+    for i in range(100):
+        if i%2 == 0:
+            print(i)
 
+<<<<<<< Updated upstream
         
 >>>>>>> 938e4dbee991f25cc85eca45f0baa167d3d9a414
+=======
+>>>>>>> Stashed changes
