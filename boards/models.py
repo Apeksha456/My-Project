@@ -63,3 +63,15 @@ class Post(models.Model):
 
 class Test:
     name = models.CharField(max_length=100)
+
+
+
+from django.db import models
+from django.db.models import Model
+# Create your models here.
+  
+class F1Model(Model):
+    geeks_field = models.IntegerField()
+  
+    def __str__(self):
+        return self.geeks_field
