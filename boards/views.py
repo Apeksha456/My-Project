@@ -32,9 +32,9 @@ def board_topics(request,pk):
 
 @login_required
 def new_topic(request, pk):
-    board = get_object_or_404(Board, pk=pk)
+    board=get_object_or_404(Board, pk=pk)
     # print(request.User)    
-    user = request.user      # User.objects.first()  # TODO: get the currently logged in user
+    user=request.user      # User.objects.first()  # TODO: get the currently logged in user
     if request.method == 'POST':
         form = NewTopicForm(request.POST)
         if form.is_valid():
@@ -98,23 +98,3 @@ class NewPostView(View):
 
 def func():
     pass
-
-<<<<<<< HEAD
-def test1():
-    pass
-
-
-def test():
-    "for testing purpose"
-    for i in range(15):
-        print(i)
-
-def test2():
-    print("In test2")
-=======
-
-def test():
-    for i in range(100):
-        if i%2 == 0:
-            print(i)
-
